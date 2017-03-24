@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Mi pagina</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico in the root directory -->
+
+        <!-- Loading Bootstrap -->
+        <link href="css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Loading Flat UI -->
+        <link href="css/flat-ui.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+
+        <!-- Esto es un comentario -->
+        <br><br>
+        <div class="container" id="preguntas">
+            <div class="row">
+                <div class="col-md-8">
+                    <!--¿Cómo te llamas? h4 -->
+                </div>
+                <div class="col-md-4">
+                    <!-- Campo de texto con placeholder, class="form-control" y id="nombre" -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- ¿Qué edad tienes? h4 -->
+                </div>
+                <div class="col-md-4">
+                    <!-- Campo de número con placeholder, class="form-control" y id="edad"-->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <!-- ¿Qué carrera estas estudiando? h4 -->
+                </div>
+                <div class="col-md-4">
+                    <!-- Select con clases "form-control select select-primary", id="carrera", con un Atributo Data llamado toggle y con valor "select" -->
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <!-- evento cuando hace clic llamar al metodo que muestra la respuesta -->
+                    <div class="btn btn-block btn-lg btn-primary">ENVIAR</div>
+                </div>     
+            </div>
+        </div>
+        <div class="container" id="respuesta">
+            <div class="row">
+                <div class="col-md-8 col-sm-offset-2 text-center">
+                    <h2>¡Hola! Mi nombre es <span class="nombre"></span>, tengo <span class="edad"></span> años y soy estudiante de <span class="carrera"></span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-sm-offset-2 text-center">
+                    <!-- evento cuando hace clic llamar al metodo que muestra la respuesta -->
+                    <div class="btn btn-block btn-lg btn-default">REGRESAR</div>
+                </div>     
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="js/flat-ui.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
